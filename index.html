@@ -799,7 +799,7 @@
         <a href="#projects" onclick="scrollToSection(event, 'projects')">01. Projects</a>
         <a href="#workbench" onclick="scrollToSection(event, 'workbench')">02. Interactive Lab</a>
         <a href="#credentials" onclick="scrollToSection(event, 'credentials')">03. Stack &amp; Education</a>
-        <button type="button" class="nav-email-btn" onclick="copyEmail()">deniz.sepit@std.ieu.tr</button>
+        <button type="button" class="nav-email-btn" onclick="copyEmail()">deniz.sepit@std.ieu.edu.tr</button>
       </div>
     </div>
   </nav>
@@ -816,8 +816,8 @@
       <div class="hero-actions">
         <a class="btn btn-primary" href="#projects" onclick="scrollToSection(event, 'projects')">View Engineering Projects</a>
         <a class="btn btn-outline" href="#workbench" onclick="scrollToSection(event, 'workbench')">Interactive Simulation Lab</a>
-        <button type="button" class="btn btn-outline" onclick="copyEmail()">Copy Email: deniz.sepit@std.ieu.tr</button>
-        <a class="btn btn-outline" href="mailto:deniz.sepit@std.ieu.tr">Send Email</a>
+        <button type="button" class="btn btn-outline" onclick="copyEmail()">Copy Email: deniz.sepit@std.ieu.edu.tr</button>
+        <a class="btn btn-outline" href="mailto:deniz.sepit@std.ieu.edu.tr">Send Email</a>
       </div>
     </div>
   </header>
@@ -1121,13 +1121,13 @@
       <p style="font-size:1.05rem; font-weight:700; color:#FFFBEB; margin-bottom:6px;">M. Deniz Sepit — Electrical &amp; Electronics Engineering</p>
       <p>
         Izmir University of Economics &nbsp;•&nbsp; İzmir, Türkiye &nbsp;•&nbsp;
-        <a href="mailto:deniz.sepit@std.ieu.tr">deniz.sepit@std.ieu.tr</a>
+        <a href="mailto:deniz.sepit@std.ieu.edu.tr">deniz.sepit@std.ieu.edu.tr</a>
         &nbsp;(<button type="button" class="copy-link" onclick="copyEmail()">Copy Email</button>)
       </p>
     </div>
   </footer>
 
-  <div id="toast">Copied: deniz.sepit@std.ieu.tr</div>
+  <div id="toast">Copied: deniz.sepit@std.ieu.edu.tr</div>
 
   <script>
     const AMP_GALLERY_META = [
@@ -1153,7 +1153,7 @@
         filename: 'electromechanical_drive_simulation.m',
         title: 'Electromechanical Drive System Simulation (electromechanical_drive_simulation.m)',
         code: `%% ELECTROMECHANICAL DRIVE SYSTEM SIMULATION (PMSM / TRACTION DRIVE)
-% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.tr)
+% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.edu.tr)
 clear; clc; close all;
 
 % 1. Electromechanical & Machine Parameters
@@ -1215,7 +1215,7 @@ grid on; xlabel('Time [s]'); ylabel('Torque [N*m]'); title('Electromagnetic Torq
         filename: 'smart_irrigation_telemetry_analysis.m',
         title: 'ArduKit Smart Irrigation Telemetry Analysis (smart_irrigation_telemetry_analysis.m)',
         code: `%% SMART IRRIGATION CONTROL SYSTEM TELEMETRY & EFFICIENCY ANALYSIS
-% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.tr)
+% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.edu.tr)
 clear; clc; close all;
 
 T_hours = 72; dt = 0.25; t_hr = (0:dt:T_hours)'; N = length(t_hr);
@@ -1268,7 +1268,7 @@ grid on; xlabel('Time [Hours]'); ylabel('Cumulative Water [L]');`
         filename: 'structure_from_motion_3d_interpolation.m',
         title: '3D Structure from Motion & Image Interpolation (structure_from_motion_3d_interpolation.m)',
         code: `%% 3D STRUCTURE FROM MOTION (SfM) & NUMERICAL IMAGE INTERPOLATION
-% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.tr)
+% Author: M. Deniz Sepit — Electrical & Electronics Engineering (deniz.sepit@std.ieu.edu.tr)
 clear; clc; close all;
 
 % 1. 3D Structure from Motion via Gram-Schmidt & Eigenvalue Decomposition
@@ -1392,7 +1392,7 @@ grid on; axis equal; title('Reconstructed 3D Point Cloud (Gram-Schmidt + Eigenva
     }
 
     function copyEmail() {
-      const email = 'deniz.sepit@std.ieu.tr';
+      const email = 'deniz.sepit@std.ieu.edu.tr';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(email).catch(() => fallbackCopy(email));
       } else {
