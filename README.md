@@ -4,7 +4,7 @@
 
 - **Author:** M. Deniz Sepit
 - **Institution:** Izmir University of Economics (B.Sc. in Electrical and Electronics Engineering)
-- **Contact:** [deniz.sepit@std.ieu.tr](mailto:deniz.sepit@std.ieu.tr)
+- **Contact:** [deniz.sepit@std.ieu.edu.tr](mailto:deniz.sepit@std.ieu.edu.tr)
 
 ## Repository Structure
 
